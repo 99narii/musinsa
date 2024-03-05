@@ -106,8 +106,12 @@ padding: 0px 10px;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
+.nav-btn::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
 .nav-btn button {
     /* display: flex;
     align-items: center;
