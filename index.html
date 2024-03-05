@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>무신사</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!------헤더-->
+    <header class="header">
+        <div class="header-left">
+            <div class="header-alarm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M9.96706 18.2001V19.9334C9.96706 21.6087 11.3251 22.9668 13.0004 22.9668C14.6757 22.9668 16.0337 21.6087 16.0337 19.9334V18.2001M6.69736 8.90313C6.69736 5.42206 9.51932 2.6001 13.0004 2.6001C16.4815 2.6001 19.3034 5.42206 19.3034 8.90313V13.0001L22.1004 15.6001V18.6334H3.90039V15.6001L6.69736 13.0001V8.90313Z" stroke="black"></path></svg>    
+            </div>
+        </div>
+        <div class="header-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="95" height="16" viewBox="0 0 95 16" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M39.7649 8.92841C41.4239 9.54022 42.38 9.89279 42.38 11.4667C42.38 12.911 41.3584 13.8445 39.7376 13.8445C38.1163 13.8445 36.9616 12.8665 36.9616 11.2445V11.022H34.608C34.608 14.1776 36.8508 16 39.7376 16C42.6686 16 44.7337 13.8445 44.7337 11.3777C44.7337 10.1111 44.3339 9.311 43.668 8.59989C43.0019 7.88901 42.18 7.44459 40.8033 6.93334L39.9149 6.60025C37.9608 5.86657 37.3391 5.31127 37.3391 4.20002C37.3391 2.93318 38.2717 2.15545 39.7152 2.15545C41.1364 2.15545 42.1358 2.93318 42.1358 4.35561V4.64443H44.4894C44.4894 1.79979 42.6909 0 39.7152 0C36.4731 0 34.9853 2.24442 34.9853 4.2445C34.9853 5.35532 35.3407 6.15562 35.9182 6.86672C36.4952 7.57805 37.2947 8.00011 38.4717 8.44452L39.5376 8.84445L39.7649 8.92841ZM13.812 0.222138L8.216 9.26666L2.64239 0.222138H0V15.7777H2.22042V3.51076L7.19448 11.5777H9.23753L14.2339 3.51076V15.7777H16.4543V0.222138H13.812ZM29.7098 9.26679V0.222481H31.9527V9.24422C31.9527 13.4892 29.5322 16.0001 25.8904 16.0001C22.2488 16.0001 19.8284 13.4892 19.8284 9.24422V0.222481H22.071V9.26679C22.071 12.0891 23.5366 13.8223 25.8904 13.8223C28.2444 13.8223 29.7098 12.0891 29.7098 9.26679ZM47.5609 15.7778H49.826V0.222481H47.5609V15.7778ZM55.4884 15.7778V3.73353L63.5713 15.7778H66.0584V0.222481H63.8378V12.3332L55.7326 0.222481H53.2678V15.7778H55.4884ZM76.4865 11.4667C76.4865 9.8929 75.5304 9.54027 73.8718 8.92854L73.6442 8.84445L72.5785 8.44452C71.4015 8.00011 70.602 7.57805 70.0247 6.86672C69.4473 6.15562 69.0919 5.35532 69.0919 4.2445C69.0919 2.24442 70.5798 0 73.822 0C76.7975 0 78.5962 1.79979 78.5962 4.64443H76.2424V4.35561C76.2424 2.93318 75.243 2.15545 73.822 2.15545C72.3785 2.15545 71.4459 2.93318 71.4459 4.20002C71.4459 5.31127 72.0676 5.86657 74.0217 6.60025L74.9099 6.93334C76.2866 7.44459 77.1084 7.88901 77.7746 8.59989C78.4407 9.311 78.8403 10.1111 78.8403 11.3777C78.8403 13.8445 76.7751 16 73.8444 16C70.9574 16 68.7146 14.1776 68.7146 11.022H71.0684V11.2445C71.0684 12.8665 72.2231 13.8445 73.8444 13.8445C75.465 13.8445 76.4865 12.911 76.4865 11.4667ZM90.8477 11.4443H83.9195L82.1653 15.7776H79.8778L86.1622 0.222013H88.6049L94.8889 15.7776H92.6017L90.8477 11.4443ZM87.3835 2.88904L84.8077 9.24451H89.9593L87.3835 2.88904Z" fill="black"></path></svg>
+        </div>
+        <div class="header-right">
+            <div class="header-search-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M15.5999 15.5999L22.5332 22.5332M17.7665 10.3999C17.7665 14.4684 14.4684 17.7665 10.3999 17.7665C6.33137 17.7665 3.0332 14.4684 3.0332 10.3999C3.0332 6.33137 6.33137 3.0332 10.3999 3.0332C14.4684 3.0332 17.7665 6.33137 17.7665 10.3999Z" stroke="black" stroke-linejoin="round"></path></svg>        
+            </div>
+            <div class="header-wish-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M9.53327 8.2334V5.20006C9.53327 3.28548 11.0853 1.7334 12.9999 1.7334C14.9145 1.7334 16.4666 3.28548 16.4666 5.20006V8.2334M4.7666 8.2334H21.2333V22.9667H4.7666V8.2334Z" stroke="black"></path></svg>
+            </div>
+        </div>
+    </header>
+    <!-------내비-->
+    <nav class="sticky-nav">
+        <div class="nav-btn">
+            <button type="button">24S/S PT</button>
+            <button type="button">랭킹</button>
+            <button type="button">스타일</button>
+            <button type="button">세일</button>
+            <button type="button">추천</button>
+            <button type="button">뷰티</button>
+            <button type="button">이벤트</button>
+        </div>
+    </nav>
+    
+    <main>
+        <section>
+            <div class="main-banner">
+                <a href="https://www.musinsa.com/app/campaign/index/spring24pt" class="main__sc-q9mpt5-0 dYdWRC gtm-catch-click gtm-catch-visibility" data-gtm-cd-19="banner" data-gtm-cd-20="/main/campaign" data-gtm-cd-21="1" data-gtm-cd-23="campaign_section_KV" data-gtm-category="campaign_section_KV" data-gtm-action="click" data-visible-gtm-action="impression" data-visible-gtm-cd-37="N" data-gtm-cd-37="Y" data-gtm-label="24S/S PT|https://www.musinsa.com/app/campaign/index/spring24pt" data-gtm-vis-recent-on-screen94020305_59="194945" data-gtm-vis-first-on-screen94020305_59="194945" data-gtm-vis-total-visible-time94020305_59="2500" data-gtm-vis-recent-on-screen11584968_1109="194945" data-gtm-vis-first-on-screen11584968_1109="194945" data-gtm-vis-total-visible-time11584968_1109="1000" data-gtm-vis-recent-on-screen11584968_776="194945" data-gtm-vis-first-on-screen11584968_776="194945" data-gtm-vis-total-visible-time11584968_776="2500" data-gtm-vis-recent-on-screen11584968_1074="194945" data-gtm-vis-first-on-screen11584968_1074="194945" data-gtm-vis-total-visible-time11584968_1074="1000" data-gtm-vis-has-fired11584968_1109="1" data-gtm-vis-has-fired11584968_1074="1" data-gtm-vis-has-fired94020305_59="1" data-gtm-vis-has-fired11584968_776="1">
+                    <img src="https://image.msscdn.net/campaign/2024022114393400000061531.jpg" class="main__sc-q9mpt5-1 hLuRWO"></a>
+        
+            </div>
+
+
+        </section>
+        
+        <!------영상-->
+        <section>
+            <div class="main-video">
+                <video class="vjs-tech" poster="https://media.musinsa.com/video/2240/poster/poster.jpg" id="vjs_video_1108_html5_api" tabindex="-1" preload="none" playsinline="playsinline" src="blob:https://www.musinsa.com/f1f18bda-417c-4a07-b1e3-a664a23fb853"> 
+                    <source type="application/x-mpegURL" src="https://media.musinsa.com/video/2240/converted/w1920_h1080_r177.78.m3u8"> 
+                <track kind="metadata" label="segment-metadata"></video>
+            </div>
+        </section>
+        <!------쿠폰-->
+        <section>
+            <div class="main-coupon">
+                <div class="section-title">
+                    주목해야 할 봄 신상 혜택
+                </div>
+                    <a class="coupon-card">
+                        <div class="coupon-img">
+                            <img src="https://image.msscdn.net/campaign/2024022114424500000065049.jpg" alt="브랜드 위크" class="main__sc-10o3ryg-9 bECzaR">
+                        </div>
+                        <div class="coupon-info">
+                            <p class="coupon-category">특가</p>
+                            <p class="coupon-title">브랜드 위크</p>
+                            <div class="coupon-benefits">
+                                <span class="coupon-badge">할인</span>
+                                <p class="coupon-benefits-info">24 S/S 신상품 추가 세일</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="coupon-card">
+                        <div class="coupon-img">
+                            <img src="https://image.msscdn.net/campaign/2024022114424500000065049.jpg" alt="브랜드 위크" class="main__sc-10o3ryg-9 bECzaR">
+                        </div>
+                        <div class="coupon-info">
+                            <p class="coupon-category">브랜드 혜택</p>
+                            <p class="coupon-title">신상품 스페셜 쿠폰</p>
+                            <div class="coupon-benefits">
+                                <span class="coupon-badge">쿠폰</span>
+                                <p class="coupon-benefits-info">쿠폰 추가 할인</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="coupon-card">
+                        <div class="coupon-img">
+                            <img src="https://image.msscdn.net/campaign/2024022114424500000065049.jpg" alt="브랜드 위크" class="main__sc-10o3ryg-9 bECzaR">
+                        </div>
+                        <div class="coupon-info">
+                            <p class="coupon-category">브랜드 혜택</p>
+                            <p class="coupon-title">무료 반품 이벤트</p>
+                            <div class="coupon-benefits">
+                                <span class="coupon-badge">혜택</span>
+                                <p class="coupon-benefits-info">무료 배송, 무료 반품</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="coupon-card">
+                        <div class="coupon-img">
+                            <img src="https://image.msscdn.net/campaign/2024022114424500000065049.jpg" alt="브랜드 위크" class="main__sc-10o3ryg-9 bECzaR">
+                        </div>
+                        <div class="coupon-info">
+                            <p class="coupon-category">라이브 데이</p>
+                            <p class="coupon-title">단 이츨, 라이브 데이!</p>
+                            <div class="coupon-benefits">
+                                <span class="coupon-badge">할인</span>
+                                <p class="coupon-benefits-info">라이브 특가와 결제 혜택</p>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+        </section>
+        <!------브랜드 위크-->
+        <section>
+            <div class="brand-week">
+                <div class="brand-week-title">
+                    <div class="section-title">
+                        브랜드 위크
+                    </div>
+                    <a> &gt;</a>
+                </div>
+
+                <div class="brand-week-list">
+                    <a class="product-card">
+                        <div class="product-img">
+                            <img alt="그라미치" class="main__sc-1m03pk6-3 hdBFqa" src="https://image.msscdn.net/images/goods_img/20240213/3861322/3861322_17084995703653_500.jpg">
+                        </div>
+                        <div class="probuct-info">
+                            <p class="brand-name">그라미치</p>
+                            <p class="product-name">CLASS 5 롱슬리브 티셔츠 Slate Pigment</p>
+                            <div class="price-tag"><span class="price-rate">10%</span><span class="product-price">80,100원</span></div>
+                        </div>
+                    </a>
+                    <a class="product-card">
+                        <div class="product-img">
+                            <img alt="그라미치" class="main__sc-1m03pk6-3 hdBFqa" src="https://image.msscdn.net/images/goods_img/20240213/3861322/3861322_17084995703653_500.jpg">
+                        </div>
+                        <div class="probuct-info">
+                            <p class="brand-name">그라미치</p>
+                            <p class="product-name">CLASS 5 롱슬리브 티셔츠 Slate Pigment</p>
+                            <div class="price-tag"><span class="price-rate">10%</span><span class="product-price">80,100원</span></div>
+                        </div>
+                    </a>
+                    <a class="product-card">
+                        <div class="product-img">
+                            <img alt="그라미치" class="main__sc-1m03pk6-3 hdBFqa" src="https://image.msscdn.net/images/goods_img/20240213/3861322/3861322_17084995703653_500.jpg">
+                        </div>
+                        <div class="probuct-info">
+                            <p class="brand-name">그라미치</p>
+                            <p class="product-name">CLASS 5 롱슬리브 티셔츠 Slate Pigment</p>
+                            <div class="price-tag"><span class="price-rate">10%</span><span class="product-price">80,100원</span></div>
+                        </div>
+                    </a>
+                    <a class="product-card">
+                        <div class="product-img">
+                            <img alt="그라미치" class="main__sc-1m03pk6-3 hdBFqa" src="https://image.msscdn.net/images/goods_img/20240213/3861322/3861322_17084995703653_500.jpg">
+                        </div>
+                        <div class="probuct-info">
+                            <p class="brand-name">그라미치</p>
+                            <p class="product-name">CLASS 5 롱슬리브 티셔츠 Slate Pigment</p>
+                            <div class="price-tag"><span class="price-rate">10%</span><span class="product-price">80,100원</span></div>
+                        </div>
+                    </a>
+                    <a class="product-card">
+                        <div class="product-img">
+                            <img alt="그라미치" class="main__sc-1m03pk6-3 hdBFqa" src="https://image.msscdn.net/images/goods_img/20240213/3861322/3861322_17084995703653_500.jpg">
+                        </div>
+                        <div class="probuct-info">
+                            <p class="brand-name">그라미치</p>
+                            <p class="product-name">CLASS 5 롱슬리브 티셔츠 Slate Pigment</p>
+                            <div class="price-tag"><span class="price-rate">10%</span><span class="product-price">80,100원</span></div>
+                        </div>
+                    </a>
+                    <a class="product-card">
+                        <div class="product-img">
+                            <img alt="그라미치" class="main__sc-1m03pk6-3 hdBFqa" src="https://image.msscdn.net/images/goods_img/20240213/3861322/3861322_17084995703653_500.jpg">
+                        </div>
+                        <div class="probuct-info">
+                            <p class="brand-name">그라미치</p>
+                            <p class="product-name">CLASS 5 롱슬리브 티셔츠 Slate Pigment</p>
+                            <div class="price-tag"><span class="price-rate">10%</span><span class="product-price">80,100원</span></div>
+                        </div>
+                    </a>
+                    <a class="product-card">
+                        <div class="product-img">
+                            <img alt="그라미치" class="main__sc-1m03pk6-3 hdBFqa" src="https://image.msscdn.net/images/goods_img/20240213/3861322/3861322_17084995703653_500.jpg">
+                        </div>
+                        <div class="probuct-info">
+                            <p class="brand-name">그라미치</p>
+                            <p class="product-name">CLASS 5 롱슬리브 티셔츠 Slate Pigment</p>
+                            <div class="price-tag"><span class="price-rate">10%</span><span class="product-price">80,100원</span></div>
+                        </div>
+                    </a>
+                    <a class="product-card">
+                        <div class="product-img">
+                            <img alt="그라미치" class="main__sc-1m03pk6-3 hdBFqa" src="https://image.msscdn.net/images/goods_img/20240213/3861322/3861322_17084995703653_500.jpg">
+                        </div>
+                        <div class="probuct-info">
+                            <p class="brand-name">그라미치</p>
+                            <p class="product-name">CLASS 5 롱슬리브 티셔츠 Slate Pigment</p>
+                            <div class="price-tag"><span class="price-rate">10%</span><span class="product-price">80,100원</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="brand-week">
+                <div class="brand-week-title">
+                    <div class="section-title">
+                        브랜드 혜택
+                    </div>
+                    <a> &gt;</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="brand-week">
+                <div class="brand-week-title">
+                    <div class="section-title">
+                        S/S PT 화보 쇼케이스
+                    </div>
+                    <a> &gt;</a>
+                </div>
+                <div class="showcase-img">
+                    <img src="https://image.msscdn.net/campaign/2024022114475500000034036.jpg" alt="S/S PT 화보 쇼케이스" class="main__sc-1q4qgkw-5 bvzNid">
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 푸터</p>
+    </footer>
+    <nav >
+        <div class="footer-nav">
+            <a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M19.9329 15.6002L24.2663 20.8002M2.59961 11.7002H6.49961M2.59961 16.4668H8.23294M2.59961 21.2335H16.4663M22.0996 10.6168C22.0996 14.087 19.2865 16.9002 15.8163 16.9002C12.3461 16.9002 9.53294 14.087 9.53294 10.6168C9.53294 7.14664 12.3461 4.3335 15.8163 4.3335C19.2865 4.3335 22.0996 7.14664 22.0996 10.6168Z" stroke="white" stroke-miterlimit="10" stroke-linejoin="round"></path></svg>
+                <span class="footer-nav-text">카테고리</span>
+            </a>
+            <a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 30 30" fill="none"><path d="M8.5 16.65H12.0455M12.0455 16.65H16.7727M12.0455 16.65L13.2273 11.85M12.0455 16.65L11.1591 20.25M16.7727 16.65H20.3182M16.7727 16.65L17.9545 11.85M16.7727 16.65L15.8864 20.25M9.68182 11.85H13.2273M13.2273 11.85H17.9545M13.2273 11.85L14.1136 8.25M17.9545 11.85H21.5M17.9545 11.85L18.8409 8.25M4 5H26V23.5H21.5V27L17 23.5H4V5Z" stroke="white" stroke-miterlimit="10"></path></svg>
+                <span class="footer-nav-text">스냅</span>
+            </a>
+            <a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 30 30" fill="none"><path d="M15 16V26M15 4.5L5 12.0698V26H25V12.314L15 4.5Z" stroke="white"></path></svg>
+                <span class="footer-nav-text">홈</span>
+            </a>
+            <a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 30 30" fill="none"><path d="M14.5528 8.89751L15 9.79193L15.4472 8.89751C15.9569 7.87818 16.5715 6.90696 17.4383 6.18954C18.2927 5.48251 19.4186 5 21 5C24.0889 5 26.5 7.60787 26.5 10.75C26.5 11.4628 26.3308 12.3173 26.0548 13.136C25.7786 13.9554 25.4087 14.7 25.0343 15.2006L25.0208 15.2187L25.009 15.238C24.5155 16.0399 23.6323 17.0892 22.5598 18.2286C21.4936 19.3615 20.2627 20.5602 19.0928 21.657C17.9236 22.7531 16.8188 23.7442 16.0061 24.4614C15.5999 24.8199 15.2669 25.1097 15.0356 25.3098C15.0235 25.3203 15.0116 25.3306 14.9999 25.3407C14.9883 25.3306 14.9764 25.3203 14.9641 25.3097C14.7327 25.1096 14.3994 24.8197 13.9926 24.4612C13.1789 23.7439 12.0719 22.7527 10.8984 21.6564C8.53194 19.4455 5.95778 16.864 4.92216 15.2321L4.9119 15.2159L4.90043 15.2006C4.52943 14.7044 4.17591 13.964 3.91524 13.1442C3.65528 12.3266 3.5 11.4687 3.5 10.75C3.5 7.60787 5.91106 5 9 5C10.5814 5 11.7073 5.48251 12.5617 6.18954C13.4285 6.90696 14.0431 7.87818 14.5528 8.89751Z" stroke="white" stroke-miterlimit="10"></path></svg>
+                <span class="footer-nav-text">좋아요</span>
+            </a>
+            <a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 30 30" fill="none"><path d="M15 11.9999C17.2091 11.9999 19 10.2091 19 7.99996C19 5.79084 17.2091 4 15 4C12.7909 4 11 5.79084 11 7.99996C11 10.2091 12.7909 11.9999 15 11.9999Z" stroke="white"></path><path d="M21 16H9C6.79086 16 5 17.7909 5 20V26H25V20C25 17.7909 23.2091 16 21 16Z" stroke="white"></path></svg>
+                <span class="footer-nav-text">마이</span>
+            </a>
+        </div>
+
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
