@@ -272,10 +272,12 @@ padding: 0px 10px;
 }
 .brand-week-list {
     width: 100%;
+    height: auto;
     display: grid;
+    flex-wrap: wrap;
     grid-template-rows: repeat(2, auto);
     grid-auto-columns: calc(33.3333% -3.3333px);
-    gap: 24px 4px;
+    gap: 24px 5px;
     grid-auto-flow: column;
     box-sizing: border-box;
     overflow-x: scroll;
@@ -287,17 +289,23 @@ padding: 0px 10px;
 .brand-week-title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.brand-week-title a {
+    font-weight: 900;
 }
 
 .product-card {
     display: block;
     box-sizing: border-box;
     min-width: 126px;
+    max-width: calc(33.333% - 24px);
     height: auto;
 
 }
 .product-img img{
-    max-width: 126px;
+    width: 100%;
     height: auto;
     border-radius: 5px;
 }
@@ -343,4 +351,73 @@ padding: 0px 10px;
     img {
         width: 100%;
     }
+}
+/*캠페인*/
+.campaign {
+    padding: 0 16px;
+
+}
+
+.campaign-list {
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.campaign-card {
+    position: relative;
+    display: flex;
+    width: calc(50% - 2.5px);
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.campaign-card img {
+    width: 100%; 
+    
+}
+
+.campaign-info {
+}
+.campaign-card-title {
+    font-weight: 500;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+.campaign-card-date {
+    font-size: 12px;
+    color: #6e6e6e;
+}
+
+.ampty-area {
+    height: 64px;
+}
+.footer-list {
+    padding: 0 16px;
+}
+.footer-list ul {
+    padding: 10px 0px 8px;
+}
+.footer-list-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+}
+
+.footer-padding {
+    height: 10vh;
+}
+
+.footer-content {
+    font-size: 12px;
 }

@@ -13,7 +13,17 @@ buttons.forEach(button => {
 });
 
 
-//브랜드 위크, 브랜드 혜택 2줄씩 리스트 캐러셀
+//풋터 정보 리스트
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.footer-list-button').forEach(function(button) {
+        button.addEventListener('click', function() {
+            const footerContent = this.nextElementSibling;
+            if (footerContent.style.display === "none") {
+                footerContent.style.display = "block";
+            } else {
+                footerContent.style.display = "none";
+            }
+        });
+    });
+});
 
-
-//화보 쇼케이스 하단 상품 1줄 케러셀
