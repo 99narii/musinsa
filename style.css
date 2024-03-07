@@ -421,3 +421,200 @@ padding: 0px 10px;
 .footer-content {
     font-size: 12px;
 }
+.sns-icon {
+    display: flex;
+    gap: 16px;
+    padding: 0 16px;
+}
+
+/*푸터 저작권 영역*/
+
+.footer-copyright {
+    margin: 38px 0px 20px;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.copyright-link {
+    display: inline-flex;
+    margin-top: 6px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    text-decoration: underline;
+}
+.copyright-info {
+    margin-top: 6px;
+    color: #919191;
+}
+
+/*플로팅 버튼 세트*/
+.floating-btn-set {
+    bottom: calc(env(safe-area-inset-bottom) + 80px);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 10px;
+    z-index: 500;
+}
+.floating-btn-set button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #00000066;
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin-top: 14px;
+}
+.floating-btn-set button:last-child {
+    background-color: black;
+}
+.floating-btn-set button:last-child span {
+    color: #fff;
+}
+
+/*로그인 페이지--------------------------------------*/
+.login-layout {
+    padding: 0 16px;
+}
+.header-login {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    height: 50px;
+    align-items: center;
+}
+.back-btn {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+}
+.login-header-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-empty {
+    width: 40px;
+    height: auto;
+}
+
+.login-nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #b3b3b3;
+    height: 45px;
+    width: 100%;
+}
+.login-btn button {
+    position: relative;
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+
+}
+.active-login-btn {
+    border-bottom: 3px solid black; /* 파란색 테두리 */
+    font-weight: 700;
+}
+
+.login-member {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.login-input {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0 12px;
+    height: 50px;
+    margin-top: 8px;
+}
+.login-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.login-option {
+    display: flex;
+    justify-content: space-between;
+    line-height: 21px;
+    padding: 16px 0 4px;
+}
+input[type="checkbox"] {
+    border-radius: 50%;
+}
+.find-account span {
+    padding: 0 7.5px;
+    line-height: 20px;
+}
+.find-account span:last-child {
+    border-left: 1px solid #aaa;
+}
+.buy-search-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.buy-search-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    color: #b3b3b3;
+    height: 50px;
+    margin-top: 20px;
+}
+.login-kakao-btn {
+    width: 100%;
+    background-color: #fee550;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.login-apple-btn {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #bfbfbf;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-top: 11px;
+}
+
+.register {
+    color: #0078ff;
+    margin-top: 28px;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.register-btn {
+    border: 1px solid #0078ff;
+    border-radius: 4px;
+    padding: 3px 8px;
+    
+}

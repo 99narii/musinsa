@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
 </head>
 <body>
-    
+    <header>
+        <div class="header-login">
+            <a class="back-btn" href="./index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M17.3331 3.4668L7.7998 13.0001L17.3331 22.5335" stroke="black" stroke-miterlimit="10"></path></svg>
+            </a>
+            <span class="login-header-title">
+                로그인
+            </span>
+            <div class="header-empty"></div>
+    </div>
+    </header>
+    <main>
+        <div class="login-layout">
+            <div class="login-nav">
+                <button class="member-login-btn active-login-btn">가입 회원</button><button class="buy-search-btn">비회원 주문 조회</button>
+            </div>
+            <div class="login-member"  >
+                <input type="text" class="login-input" placeholder="아이디">
+                <input type="password" class="login-input" placeholder="비밀번호">
+                <button type="submit" class="login-btn">로그인</button>
+                <div class="login-option">
+                    <div><input type="checkbox" id="remember-id" > 자동 로그인 </div>
+                    <div class="find-account">
+                        <span>아이디 찾기</span><span>비밀번호 찾기</span>
+                    </div>
+                    
+                </div>
+                <div class="login-kakao-btn">카카오로 로그인하기</div>
+                <div class="login-apple-btn">애플로 로그인하기</div>
+                <div class="register">가입 즉시 20% 할인 쿠폰 지급 <button type="button" class="register-btn">회원가입</button></div>
+            </div>
+            <div class="buy-search-form" style="display: none;">
+                주문자명
+                <input type="text" class="login-input" >
+                주문번호
+                <input type="text" class="login-input" >
+                <button type="submit" class="buy-search-submit">주문 내역 조회하기</button>
+                <div class="register">가입 즉시 20% 할인 쿠폰 지급 <button type="button" class="register-btn">회원가입</button></div>
+
+            </div>
+            
+            
+        </div>
+    </main>
+    <script src="./script.js"></script>
 </body>
 </html>
