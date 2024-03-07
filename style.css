@@ -457,7 +457,7 @@ padding: 0px 10px;
     right: 10px;
     z-index: 500;
 }
-.floating-btn-set button {
+.floating-btn-set a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -469,12 +469,11 @@ padding: 0px 10px;
     border-radius: 100%;
     margin-top: 14px;
 }
-.floating-btn-set button:last-child {
+.floating-btn-set a:last-child {
     background-color: black;
-}
-.floating-btn-set button:last-child span {
     color: #fff;
 }
+
 
 /*로그인 페이지--------------------------------------*/
 .login-layout {

@@ -49,3 +49,6 @@ buySearchBtn.addEventListener('click', function() {
     buySearchBtn.classList.add('active-login-btn');
     memberLoginBtn.classList.remove('active-login-btn'); 
 });
+
+
+
