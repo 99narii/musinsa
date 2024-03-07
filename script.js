@@ -35,7 +35,6 @@ const buySearchBtn = document.querySelector('.buy-search-btn');
 const loginMemberDiv = document.querySelector('.login-member');
 const buySearchFormDiv = document.querySelector('.buy-search-form');
 
-// 가입 회원 버튼 클릭 이벤트
 memberLoginBtn.addEventListener('click', function() {
     loginMemberDiv.style.display = 'flex'; 
     buySearchFormDiv.style.display = 'none';
